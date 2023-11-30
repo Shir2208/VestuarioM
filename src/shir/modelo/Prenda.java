@@ -60,4 +60,16 @@ public class Prenda {
     public void setCrenta(double crenta) {
         this.crenta = crenta;
     }
+
+    @Override
+    public String toString() {
+        return "Prenda{" +
+                "tipo de prenda=" + tPrenda +
+                ", estado=" + estado +
+                ", categoria=" + categoria +
+                ", costo de produccion=" + cproduccion +
+                ", costo de venta=" + cventa +
+                ", costo de renta=" + crenta +
+                '}';
+    }
 }

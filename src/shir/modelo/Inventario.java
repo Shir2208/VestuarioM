@@ -1,9 +1,5 @@
 package shir.modelo;
 
-import shir.prenda.Categoria;
-import shir.prenda.TPrenda;
-import shir.prenda.region.Estado;
-
 import java.util.LinkedList;
 import java.util.List;
 
@@ -18,6 +14,8 @@ public class Inventario {
     public List<Prenda> getPrendaList() {
         return prendaList;
     }
+
+    public double getPrendaList(double crenta){return crenta;}
 
     public void resPrenda(Prenda prenda){
         int indice = prendaList.indexOf(prenda);

@@ -1,16 +1,17 @@
 
 
+import shir.modelo.Inventario;
 import shir.modelo.Prenda;
-import shir.prenda.Categoria;
-import shir.prenda.TPrenda;
-import shir.prenda.region.Estado;
-
-import java.util.LinkedList;
-import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
+    Inventario inventario;
+    Prenda prenda;
+    public void main(String[] args) {
 
+        for (Prenda p: inventario.getPrendaList()) {
+            System.out.println(p);
+        }
+        System.out.println(inventario.getPrendaList(prenda.getCrenta()));
 
 
     }
